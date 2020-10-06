@@ -1,1 +1,272 @@
-/* Put your style information here! */
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+
+  font-size: 70px;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3{
+  line-height: 1.8;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h6{
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #9DA09E;
+}
+
+p{
+
+  padding: 20px;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+h4{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h5{
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 1.9;
+  font-family: 'Raleway', sans-serif;
+}
+
+figcaption{
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+ol{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul{
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+li{
+  padding-top: 8px;
+
+}
+
+#unique{
+  padding: 10px;
+}
+#italics{
+  font-style: italic;
+}
+
+
+#creditCard{
+  width: 25%;
+  height: auto;
+}
+
+#glass{
+  width: 34%;
+  height: auto;
+}
+
+#interface{
+  width: 44%;
+  height: auto;
+}
+
+
+#empathy-map{
+  width: 35%;
+  height: auto;
+}
+
+#grid{
+  width: 85%;
+  height: auto;
+  border: 9px solid black;
+  filter: grayscale(100%);
+}
+
+#observationList{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#emotions{
+  padding: 15px;
+  width: 13%;
+  height: auto;
+}
+
+#decribing{
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.8;
+}
+mark {
+  background-color: #F8E6AA;
+  color: black;
+}
+.box{
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 400px;
+}
+
+.introduction{
+  background-color: #F19D9A;
+  padding: 100px;
+
+}
+.intro{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.questionsOverview{
+  background-color: #F19D9A;
+  padding: 100px;
+}
+.questions{
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  justify-content: space-around;
+}
+.personas{
+  padding: 50px;
+
+}
+.circle-shape-example p {
+  line-height: 1.8;
+}
+
+.circle-shape-example .curve {
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem;
+  border-radius: 50%;
+  shape-outside:circle();
+}
+
+.wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.observations{
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.feelings{
+  padding: 80px;
+  background-color: #F19D9A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.faces{
+  display: flex;
+  flex-direction: column;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.persona1{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.personaColumn{
+  padding: 20px;
+}
+
+.storyboard{
+  background-color: #F19D9A;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.rows{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.captionRows{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.columns{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption {
+    display: block;
+}
+
+.item{
+  width: 100%
+}
+
+.conclusion{
+  padding: 100px;
+}
